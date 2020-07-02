@@ -1,5 +1,7 @@
 FROM rocker/rstudio:devel
 # docker build --tag jackwasey/rocker-rstudio-devel .
+# docker login docker.io
+# docker push jackwasey/rocker-rstudio-devel:latest
 #
 # docker exec -ti <CONTAINER_ID> bash even if no tty attached originally
 
